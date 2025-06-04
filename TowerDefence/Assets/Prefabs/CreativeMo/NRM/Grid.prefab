@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3704560875406882112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3625891637044505306}
+  - component: {fileID: 6266956736575412632}
+  - component: {fileID: 483521166549498822}
+  - component: {fileID: 9143699935165626808}
+  m_Layer: 0
+  m_Name: Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3625891637044505306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3704560875406882112}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6266956736575412632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3704560875406882112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265f7474551426a4aa5ff338417abbfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  replacemeantTileProcentage: 0.75
+  width: 14
+  depth: 9
+  tile: {fileID: 735447845008888867, guid: c3f8e4d2fb58c2243960384d657cb875, type: 3}
+  wallTile: {fileID: 4183770957823184903, guid: b65fa994eeff41e44ae8965ced004bad,
+    type: 3}
+  pathStraightTile: {fileID: 3917509460256047933, guid: 2c916d8b2cf961345923c2c775a5a1d4,
+    type: 3}
+  pathTurnTile: {fileID: 3917509460256047933, guid: 2c916d8b2cf961345923c2c775a5a1d4,
+    type: 3}
+  tileToReplace:
+  - {fileID: 4183770957823184903, guid: b65fa994eeff41e44ae8965ced004bad, type: 3}
+  - {fileID: 8003966194600239830, guid: b265bc51c7ccea54daa70a4abcba1fe4, type: 3}
+  - {fileID: 4716048354405125202, guid: 2001ae9b4559b594990d563986d91e7a, type: 3}
+  - {fileID: 8003966194600239830, guid: b265bc51c7ccea54daa70a4abcba1fe4, type: 3}
+  - {fileID: 4716048354405125202, guid: 2001ae9b4559b594990d563986d91e7a, type: 3}
+  - {fileID: 8003966194600239830, guid: b265bc51c7ccea54daa70a4abcba1fe4, type: 3}
+  grid: []
+  fullPath: []
+  playerCastle: {fileID: 4239133015377816003, guid: 232115259e881fc4da8414359c60ecd5,
+    type: 3}
+  enemyCastle: {fileID: 1933214595170519098, guid: e572a1d837b5a644fb0251d8567fede7,
+    type: 3}
+--- !u!114 &483521166549498822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3704560875406882112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fef4b9ca1d961c44fb941c07c3175768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: []
+--- !u!114 &9143699935165626808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3704560875406882112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c75a7065d3bec6c4bb3ae7661a846460, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPoint: {x: 0, y: 0}
+  endPoint: {x: 0, y: 0}
